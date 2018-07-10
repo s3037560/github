@@ -1,1 +1,2 @@
 this is test
+testing c.txt after sym_01.sym
