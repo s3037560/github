@@ -15,7 +15,7 @@ pipeline
                                 sh 'ls -la'
                         }
                 }
-    		stage('Publish Perforce')
+    		/*stage('Publish Perforce')
     		{
 			steps
 			{
@@ -26,7 +26,7 @@ pipeline
                         steps{
                                 sh 'ls -la'
                         }
-                }
+                }*/
 	}
 	post
 	{
