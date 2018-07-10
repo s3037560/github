@@ -28,8 +28,5 @@ pipeline
                         }
                 }
 	}
-	post 
-	{
-		cleanWs()
-	}
+	cleanWs()
 }    
