@@ -24,7 +24,7 @@ pipeline
 			steps
 			{
     				p4publish credential: 'master', publish: 
-					submit(delete: true, description: 'Submitted by Jenkins. Build: ${BUILD_TAG}', 
+					submit(delete: true, description: 'Submitted by Jenkins.', 
 					       onlyOnSuccess: false, purge: '', reopen: false), 
 					workspace: manualSpec(charset: 'utf8', 
 							      name: 'jenkins-${NODE_NAME}-${JOB_NAME}-${EXECUTOR_NUMBER}', 
